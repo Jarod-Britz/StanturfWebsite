@@ -1,0 +1,54 @@
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 3% 15%;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+input{
+    width: 300px;
+    height: 20px;
+    border: 2px solid grey;
+    padding: 2%;
+    color: grey;
+}
+textarea{
+    width: 300px;
+    border: 2px solid grey;
+    padding: 2%;
+    color: grey;
+}
+img{
+    width: 450px;
+    margin: 0 auto;
+}
+button{
+    width: 80px;
+    height: 40px;
+    background-color: #fff;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(255, 255, 0, 0.863);
+    border-radius: 12px;
+    border: solid 2px red;
+}
+
+
+@media screen and (max-width: 900px){
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin: 0;
+        
+    }
+    img{
+        width: 300px;
+    }
+}

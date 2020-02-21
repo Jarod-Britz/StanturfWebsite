@@ -1,0 +1,61 @@
+
+.name{
+    background: url(../../assets/Name.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 14%;
+    color: white;
+}
+
+.backgroundSection{
+    background: url(../../assets/13458536_1042875522464983_3252874924326645417_o.jpg) center, linear-gradient(180deg, #2b3946, #384a5b);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 25em 26%;
+    color: white;
+    text-align: center;
+}
+.backgroundSection button{
+    width: 190px;
+    height:70px;
+    font-size: 30px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+}
+.container p{
+    text-align: left;
+    margin: 10% 10% 0 0;
+    font-size: 18px;
+}
+.container img{
+    width: 300px;
+    margin: 10%;
+}
+
+@media screen and (max-width: 800px){
+    .backgroundSection{
+        background: url(../../assets/13458536_1042875522464983_3252874924326645417_o.jpg) center, linear-gradient(180deg, #2b3946, #384a5b);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 15em 26%;
+        color: white;
+    }
+}
+
+
+@media screen and (max-width: 550px){
+    .backgroundSection{
+        background: url(../../assets/13458536_1042875522464983_3252874924326645417_o.jpg) center, linear-gradient(180deg, #2b3946, #384a5b);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 11em 26%;
+        color: white;
+    }
+}
+
+
+
