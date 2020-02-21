@@ -127,7 +127,7 @@
 
     </div>
 
-    <h2>Under 10</h2>
+    <h2 routerLink="/under10">Under 10</h2>
     <div class="under8">
         <img src="../../assets/under10(1).jpg" alt="">
         <img src="../../assets/under10.jpg" alt="">
@@ -135,7 +135,7 @@
     </div>
 
     <div class="teams">
-        <h2>Under 12</h2>
+        <h2 routerLink="/under12">Under 12</h2>
         <div class="under8">
             <img src="../../assets/default.png" alt="">
             <img src="../../assets/default.png" alt="">
@@ -143,7 +143,7 @@
         </div>
     </div>
 
-    <h2>Under 14</h2>
+    <h2 routerLink="/under14">Under 14</h2>
     <div class="under8">
         <img src="../../assets/default.png" alt="">
         <img src="../../assets/default.png" alt="">
@@ -151,7 +151,7 @@
     </div>
 
     <div class="teams">
-        <h2>Under 16</h2>
+        <h2 routerLink="/under16">Under 16</h2>
         <div class="under8">
             <img src="../../assets/default.png" alt="">
             <img src="../../assets/default.png" alt="">
@@ -159,7 +159,7 @@
         </div>
     </div>
 
-    <h2>Under 18</h2>
+    <h2 routerLink="/under18">Under 18</h2>
     <div class="under8">
         <img src="../../assets/default.png" alt="">
         <img src="../../assets/default.png" alt="">
@@ -167,7 +167,7 @@
     </div>
 
     <div class="teams">
-        <h2>First Team</h2>
+        <h2 routerLink="/firstteam">First Team</h2>
         <div class="under8">
             <img src="../../assets/firstteam(1).jpg" alt="">
             <img src="../../assets/firstteam.jpg" alt="">
@@ -175,7 +175,7 @@
         </div>
     </div>
 
-    <h2>Champions League Team</h2>
+    <h2 routerLink="/topteam">Champions League Team</h2>
     <div class="under8">
         <img src="../../assets/topteam(1).jpg" alt="">
         <img src="../../assets/topteam.jpg" alt="">
@@ -183,9 +183,20 @@
     </div>
 
     <div class="teams">
-        <h2>Over 40</h2>
+        <h2 routerLink="/over40">Over 40</h2>
         <div class="under8">
-            <img src="../../assets/over40(1).jpg" alt="">
+            <img src="../../assets/over40(1).jpg" alt="" style="width:60%;cursor:zoom-in"
+            onclick="document.getElementById('modal01').style.display='block'">
+
+            <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+                <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                <div class="w3-modal-content w3-animate-zoom">
+                  <img src="../../assets/over40(1).jpg" style="width:100%">
+                </div>
+              </div>
+
+
+
             <img src="../../assets//over40.jpg" alt="">
             <img src="../../assets/over40(2).jpg" alt=""> 
         </div>
