@@ -39,6 +39,20 @@ button:hover{
     border: solid 2px red;
 }
 
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.copyright{
+    background-color: yellow;
+    line-height: 50px;
+    text-align: center;
+}
+
 
 @media screen and (max-width: 900px){
     .container{
